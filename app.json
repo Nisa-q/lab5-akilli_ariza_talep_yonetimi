@@ -1,24 +1,18 @@
 {
   "expo": {
-    "name": "Lab4-TeknikDestekPaneli",
-    "slug": "Lab4-TeknikDestekPaneli",
+    "name": "Akıllı Arıza Takip",
+    "slug": "lab6-ariza-takip",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "orientation": "default",
+    "scheme": "arizatakip",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
     },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    }
+    "plugins": [
+      "expo-router",
+      "expo-status-bar",
+      "expo-font"
+    ]
   }
 }
